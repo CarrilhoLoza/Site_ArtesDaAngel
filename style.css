@@ -1,0 +1,33 @@
+:root {
+  --bg: #F6F1D9;
+  --surface: #EDE6CD;
+  --primary: #A9C7AF;
+  --primary-dark: #7FA894;
+  --secondary: #D79A91;
+  --secondary-light: #EBC6BF;
+  --text: #684C2E;
+  --text-muted: #8A7053;
+  --accent: #B39362;
+  --white: #FFFFFF;
+  --fonte-titulo: "Lora", serif;
+  --fonte-texto: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.btn-comprar {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.btn-comprar:hover {
+  background-color: #BF756D;
+}
+
+.card-produto {
+  background-color: var(--surface);
+  border: 1px solid #D8CDAE;
+}
