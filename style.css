@@ -16,18 +16,21 @@
 body {
   background-color: var(--bg);
   color: var(--text);
+  font-family: var(--fonte-texto);
 }
 
 .btn-comprar {
-  background-color: var(--secondary);
+  background-color: var(--primary-dark);
   color: var(--white);
+  font-family: var(--fonte-texto);
 }
 
 .btn-comprar:hover {
-  background-color: #BF756D;
+  background-color: var(--primary);
 }
 
 .card-produto {
   background-color: var(--surface);
+  font-family: var(--fonte-titulo);
   border: 1px solid #D8CDAE;
 }
